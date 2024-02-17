@@ -33,3 +33,9 @@ end
 This is a great file with plenty for examples of how to write one line tests: https://github.com/sinatra/mustermann/blob/fa22e2cf4cfdb57f452c366eac66f241827b7e9c/mustermann/spec/sinatra_spec.rb
 
 Other ways to write one-liner tests are to not add text to the `it` block, and rely on the `subject` and context of the test.
+
+```ruby
+it { expect(subject).to eq('test-result') }
+
+```
+
